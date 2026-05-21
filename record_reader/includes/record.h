@@ -22,6 +22,6 @@ struct Record {
     std::vector<std::string> authors;  // F1/F2/F3/F6 全靠它
 };
 
-std::vector<Record> read_record(const std::string& path);
+std::vector<Record> read_record(const std::string& path = "");
 
 #endif // _RECORD_H_
